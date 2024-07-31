@@ -1,0 +1,18 @@
+div {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #979494;
+    color: #333;
+    width: 300px;
+    height: auto;
+    margin: 5px;
+}
+
+p {
+    min-width: 300px;
+    min-height: 200px;
+    background-color: red;
+    color: white;
+    max-width: 150px;
+    
+}

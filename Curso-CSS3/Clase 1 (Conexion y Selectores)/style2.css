@@ -1,0 +1,25 @@
+h1, h2, h3, h4, h5, h6 { 
+    color: red;
+    font-size: 72px;
+}
+
+p {
+    color: green;
+    font-size: 40px;
+}
+
+.example {
+    color: blue;
+}
+
+#my-p {
+    color: brown;
+}
+
+.card a {
+    color: aqua;
+}
+
+div ul il a {
+    color: black;
+}

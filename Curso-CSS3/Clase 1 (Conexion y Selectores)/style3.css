@@ -1,0 +1,11 @@
+nav ul li a {
+    font-size: 72px;
+}
+
+a[href="/"] {
+    color: red;
+}
+
+a[href="title"] {
+    color: blueviolet;
+}

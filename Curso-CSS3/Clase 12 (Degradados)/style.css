@@ -1,0 +1,16 @@
+body {
+    background-color: #333;
+}
+
+.mi-texto {
+    background: linear-gradient(red, #b69393);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: Coffee;
+}
+
+@font-face {
+    font-family: Coffee;
+    src: url(Coffee.ttf);
+}

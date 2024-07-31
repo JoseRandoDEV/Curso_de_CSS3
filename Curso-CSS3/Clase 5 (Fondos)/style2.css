@@ -1,0 +1,8 @@
+.card {
+    width: 900px;
+    height: 500px;
+    background-image: url(IMG_20220724_224000.jpg);
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+}

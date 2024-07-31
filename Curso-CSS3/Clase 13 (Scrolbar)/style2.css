@@ -1,0 +1,31 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: blue;
+}
+
+::-webkit-scrollbar-thumb:hover {  /* Seudo selectores */
+    background: blueviolet;
+}
+
+::selection {       /*Cambia el color de la seleccion del texto */
+    color: red;
+    background: yellow;
+}
+
+::-moz-selection {  /*Equivalente a navegador mozilla */
+    color: red;
+    background: yellow;
+}
+
+.container {
+    height: 100px;
+    overflow-y: scroll;
+}

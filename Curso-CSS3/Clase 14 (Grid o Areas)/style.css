@@ -1,0 +1,36 @@
+.container {
+    display: grid; /*indicamos que es una rejilla */
+    grid-template-rows: 1fr 1fr 1fr; /*definimos filas */
+    grid-template-columns: 1fr 2fr 1fr; /*definimos columnas */
+    grid-template-areas: /* definimos las areas */
+    "header header header"
+    "sidebar content sidebar-two"
+    "footer footer footer";
+    
+}
+
+header {
+    background-color: red;
+    grid-area: header;
+}
+
+.sidebar {
+    background-color: blue;
+    grid-area: sidebar;
+}
+
+main {
+    background-color: blueviolet;
+    grid-area: content;
+}
+
+.sidebar-two {
+    background-color: aquamarine;
+    grid-area: sidebar-two;
+}
+
+footer {
+    background-color: brown;
+    grid-area: footer;
+}
+

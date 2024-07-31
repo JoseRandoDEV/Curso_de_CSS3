@@ -1,0 +1,32 @@
+* {
+    margin: 0;              /*RESETEO DE PAGINA */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+main {
+    background-color: aqua; 
+    width: 100vw;   /*TAMAÑO DEL CUADRO VW Y VH TOTAL DE PANTALLA*/
+    height: 100vh;
+    display: flex;   /* HACE Q SE PONGAN AL LADO */
+    flex-direction: row;
+    justify-content: flex-start; /*CENTRA A LO CELESTE, FLEX-STAR AL PRINCIPIO, FLEX-END AL FINAL, SPACE-AROUND MAXIMISA EL ESPACIO entre COLUMNAS, space-BETWEEN LOS UBICA A LAS ESQUINAS */
+    align-items: flex-start; /*alinea al centro de la pantalla sobre eje y */
+    flex-wrap: wrap; /* si no hay espacio lo pone abajo */
+}
+
+.card {
+    background-color: orangered;
+    width: 200px;      /* TAMAÑO DE LA TARJETA */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /*espscio entrer titulo y parrafo */
+    align-items: center;
+    margin: 5px; /*separa las tarjetas entre si */
+
+}

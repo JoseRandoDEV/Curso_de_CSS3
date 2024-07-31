@@ -1,0 +1,17 @@
+.container {
+    display: grid;  /* su display va a ser una rejilla,malla */
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px;
+    /*justify-content: center; alinea elementos horizontal
+    align-items: center; alinearlos verticalmente
+    justify-content: center; su contenido
+    align-content: center; alinea el contenido */
+
+}
+
+.Grid-Item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}

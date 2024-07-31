@@ -1,0 +1,5 @@
+.card {
+    width: 900;
+    height: 900;
+    background: linear-gradient(35deg, rgba(110,157,187,1) 8%, rgba(38,110,157,1) 27%, rgba(20,38,69,1) 50%, rgba(2,12,27,1) 73%, rgba(2,50,122,1) 91%);
+}

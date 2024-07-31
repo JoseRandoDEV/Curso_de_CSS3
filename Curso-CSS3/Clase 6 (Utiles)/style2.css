@@ -1,0 +1,22 @@
+.Box1{
+    width: 150px;
+    height: 150px;
+    background-color: saddlebrown;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+
+.Box2 {
+    width: 160px;
+    height: 120px;
+    background-color: blueviolet;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}

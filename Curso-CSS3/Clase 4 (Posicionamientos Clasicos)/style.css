@@ -1,0 +1,17 @@
+h3 {
+    position: relative;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    top: 100px;
+    left: 250px;
+    
+}
+
+p {
+    position: relative;
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    right: 20%;
+}
